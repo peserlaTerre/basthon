@@ -5,8 +5,8 @@ from scipy.optimize import curve_fit
 # ─────────────────────────────────────────────
 #  VOS MESURES  (t en secondes, uC en volts)
 # ─────────────────────────────────────────────
-t  = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])   # ← modifiez ici
-uC = np.array([0, 3.16, 5.18, 6.32, 7.04, 7.47, 7.73, 7.89, 7.98, 8.03, 8.06])   # ← modifiez ici
+t  = np.array([...])   # ← modifiez ici
+uC = np.array([...])   # ← modifiez ici
 
 # ─────────────────────────────────────────────
 #  MODÉLISATION  uC(t) = E · (1 − exp(−t/τ))
