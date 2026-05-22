@@ -4,7 +4,7 @@ import numpy as np
 
 '''---------------- VOS MESURES ----------------'''
 t  = np.array([0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140])  # temps (s)
-uc = np.array([])  # tension (V) - saisir ici les valeurs mesurées
+uc = np.array([.......])  # tension (V) - saisir ici les valeurs mesurées
 
 '''---------------- (ne pas modifier) ----------'''
 def _modele(t, E, tau): return E * (1 - np.exp(-t / tau))
